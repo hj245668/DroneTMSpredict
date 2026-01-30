@@ -1,0 +1,25 @@
+프로젝트 계획서 업데이트 (v1.1)
+계획서의 내용을 바탕으로 현재 로컬 윈도우 환경에 맞게 구체화했습니다.
+
+1. 프로젝트 개요
+명칭: 드론 교통 AI 검증 플랫폼 (DroneTMS)
+
+목표: VisDrone 데이터셋 기반 객체 탐지(Object Detection) 모델 구축 및 검증 플랫폼 개발
+
+2. 마일스톤 및 일정
+Phase 1: 환경 세팅 및 데이터 검증 (20260129~30, 완료)
+
+VS Code + Miniconda 환경 구축 완료(win 기반)
+Kaggle API 연동 및 VisDrone 데이터셋 다운로드 완료
+
+Phase 2: 모델 선정 및 학습 (20260130)
+
+YOLOv8/v10 모델 라이브러리 설치
+
+visdrone.yaml 경로 설정 및 하이퍼파라미터 튜닝
+
+Phase 3: 평가 및 시각화
+
+mAP(mean Average Precision) 측정
+
+추론 결과 시각화 모듈 개발
